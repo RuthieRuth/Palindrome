@@ -24,11 +24,14 @@ function App() {
     else {
       setPalindrome("NOPE!! NOT A MATCH");
     }
+
+    //setText(""); //clears the input box after checking
   };
 
 
+
   const Help = () => {
-    
+  
     alert("Enter a word or phrase to check if it is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).");
 
     console.log(Help);
