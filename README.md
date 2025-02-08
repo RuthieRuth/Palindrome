@@ -1,0 +1,2 @@
+- npm install if dev dependencies are not available.
+- npm run dev
